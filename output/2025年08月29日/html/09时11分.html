@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 87</p><p>生成时间: 2025-08-29 09:11:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">芯片 龙芯 飞腾 兆芯 海光 寒武纪 长鑫</td>
+                <td class="count">5</td>
+                <td class="percentage">5.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2129743" target="_blank" class="news-link">【早报】事关城市高质量发展，中央重磅文件对外公布；寒武纪预计全年营收至多70亿</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1944492367907369080" target="_blank" class="news-link">寒武纪超越贵州茅台成为股王，对市场有何影响？超级牛散章建平靠寒武纪爆赚 56 亿元，其投资逻辑是什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31495797" target="_blank" class="news-link">寒武纪澄清网络传言并提示风险，预计全年营收50亿至70亿</a> [7] <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1944494361573306518" target="_blank" class="news-link">寒武纪公告称股价存在脱离当前基本面的风险，预计今年全年实现营收 50 亿元至 70 亿元，如何解读？</a> [11] <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2218758" target="_blank" class="news-link">3分钟看懂寒武纪创始人发家史</a> [21] <font color='grey'>- 09时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.6%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%B6%B3%E5%8D%8F%E9%87%8D%E7%BD%9A%E2%80%9C%E5%A5%B3%E8%B6%B3%E8%B5%9B%E5%9C%BA%E5%86%B2%E7%AA%81%E2%80%9D" target="_blank" class="news-link">中国足协重罚“女足赛场冲突”</a> [12] <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%9B%E5%85%85%E8%B6%B3+%E8%BF%98%E9%9C%80%E8%A6%81%E8%8A%82%E7%BA%A6%E7%94%A8%E7%94%B5%E5%90%97" target="_blank" class="news-link">中国电力充足 还需要节约用电吗</a> [15] <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1943758204581405252" target="_blank" class="news-link">焦虑的中国家长一年花 20 万治「注意力不集中」，注意力差就是 ADHD 吗？如何正确评估孩子的问题？</a> [15] <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7542709198933737491/" target="_blank" class="news-link">国防部回应涉中国巨型无人潜航器提问</a> [28] <font color='grey'>- 09时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mCod29HymJ" target="_blank" class="news-link">美国又全国降半旗了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mCp3ax8Hy4" target="_blank" class="news-link">韩国提出“让美国造船业再次伟大”，图什么？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时11分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2129739" target="_blank" class="news-link">欧盟拟取消部分美国商品关税 库克起诉特朗普并将美联储列为被告 | 环球市场</a> [13] <font color='grey'>- 09时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2129673" target="_blank" class="news-link">英伟达携手谷歌领投！核聚变初创公司CFS再获8.63亿美元融资</a> [9] <font color='grey'>- 09时11分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.15%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1941132414425495417" target="_blank" class="news-link">为什么绘圈对 AI 绘画痛恶欲绝，但其他圈子对 AI 创作的态度就比较温和？</a> [6] <font color='grey'>- 09时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
