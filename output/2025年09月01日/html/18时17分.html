@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2025-09-01 18:17:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mIQ7zTHrTM" target="_blank" class="news-link">“美国设想托管加沙十年，拿5000美元打发当地人”</a> [8] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2131978" target="_blank" class="news-link">美国散户们有多牛？爆炒网红股后 又把公司CEO赶下了台</a> [13] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">胖东来 于东来</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%83%96%E4%B8%9C%E6%9D%A5%E7%87%95%E9%BA%A6%E8%84%86%E8%A2%AB%E6%8C%87%E6%97%A0%E7%94%9F%E4%BA%A7%E6%97%A5%E6%9C%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E8%2583%2596%25E4%25B8%259C%25E6%259D%25A5%25E7%2587%2595%25E9%25BA%25A6%25E8%2584%2586%25E8%25A2%25AB%25E6%258C%2587%25E6%2597%25A0%25E7%2594%259F%25E4%25BA%25A7%25E6%2597%25A5%25E6%259C%259F%2523%26flag%3D1%26realpos%3D26%26dgr%3D0%26pos%3D25%26filter_type%3Drealtimehot%26band_rank%3D26%26display_time%3D1756720946%26pre_seqid%3D175672094677307698353" target="_blank" class="news-link">胖东来燕麦脆被指无生产日期</a> [26] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 鸿蒙 HarmonyOS 任正非</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E6%96%B0%E6%AC%BE%E4%B8%89%E6%8A%98%E5%8F%A0%E5%93%81%E7%89%8C%E5%A4%A7%E4%BD%BF%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26c_type%3D31%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E6%2596%25B0%25E6%25AC%25BE%25E4%25B8%2589%25E6%258A%2598%25E5%258F%25A0%25E5%2593%2581%25E7%2589%258C%25E5%25A4%25A7%25E4%25BD%25BF%2523%26flag%3D1%26realpos%3D20%26dgr%3D0%26pos%3D19%26filter_type%3Drealtimehot%26band_rank%3D20%26display_time%3D1756720946%26pre_seqid%3D175672094677307698353" target="_blank" class="news-link">华为新款三折叠品牌大使</a> [20] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7543873991691649043" target="_blank" class="news-link">Claude Code 太贵用不起？这个中转站让你省一半钱，还更稳定</a> [29] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7544631291421982729/" target="_blank" class="news-link">勿信这些AI炮制的成都教育谣言</a> [10] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">芯片 龙芯 飞腾 兆芯 海光 寒武纪 长鑫</td>
+                <td class="count">1</td>
+                <td class="percentage">1.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1945787846691653591" target="_blank" class="news-link">寒武纪股价一度跌近 9%，阿里云相关人士称「阿里采购寒武纪 15 万片 GPU 的消息不实」，哪些信息值得关注？</a> [13] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
