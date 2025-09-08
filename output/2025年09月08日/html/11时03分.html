@@ -1,0 +1,135 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2025-09-08 11:03:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">6</td>
+                <td class="percentage">5.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%A4%A7%E6%89%B9%E9%9F%A9%E5%9B%BD%E4%BA%BA%E5%9C%A8%E7%BE%8E%E8%A2%AB%E6%8B%B4%E9%93%81%E9%93%BE%E5%B8%A6%E8%B5%B0&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%25E5%25A4%25A7%25E6%2589%25B9%25E9%259F%25A9%25E5%259B%25BD%25E4%25BA%25BA%25E5%259C%25A8%25E7%25BE%258E%25E8%25A2%25AB%25E6%258B%25B4%25E9%2593%2581%25E9%2593%25BE%25E5%25B8%25A6%25E8%25B5%25B0%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26stream_entry_id%3D31%26cate%3D5001%26band_rank%3D5%26lcate%3D5001%26pos%3D4%26flag%3D1%26realpos%3D5%26display_time%3D1757300435%26pre_seqid%3D17573004353990210544135" target="_blank" class="news-link">大批韩国人在美被拴铁链带走</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2137775" target="_blank" class="news-link">日本首相石破茂宣布辞去自民党总裁职务</a> [8] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%8F%8D%E5%88%B6%E6%97%A5%E6%9C%AC%E5%8F%82%E8%AE%AE%E5%91%98%E7%9F%B3%E5%B9%B3" target="_blank" class="news-link">中方反制日本参议员石平</a> [9] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2229450" target="_blank" class="news-link">水均益解读美国对朝秘密行动</a> [9] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%AF%B9%E6%97%A5%E6%9C%AC%E5%8F%82%E8%AE%AE%E5%91%98%E7%9F%B3%E5%B9%B3%E9%87%87%E5%8F%96%E5%8F%8D%E5%88%B6%E6%8E%AA%E6%96%BD%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E5%25AF%25B9%25E6%2597%25A5%25E6%259C%25AC%25E5%258F%2582%25E8%25AE%25AE%25E5%2591%2598%25E7%259F%25B3%25E5%25B9%25B3%25E9%2587%2587%25E5%258F%2596%25E5%258F%258D%25E5%2588%25B6%25E6%258E%25AA%25E6%2596%25BD%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26stream_entry_id%3D31%26cate%3D5001%26band_rank%3D15%26lcate%3D5001%26pos%3D15%26flag%3D1%26realpos%3D15%26display_time%3D1757300435%26pre_seqid%3D17573004353990210544135" target="_blank" class="news-link">对日本参议员石平采取反制措施</a> [15] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546579590651625515/" target="_blank" class="news-link">美国或将被迫退还半数关税</a> [19] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">4</td>
+                <td class="percentage">3.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157709" target="_blank" class="news-link">如何让 ai 更好的理解 uniapp?</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/premium/articles/3755093?layout=wscn-layout" target="_blank" class="news-link">比特币BTC：AI时代的金融资产！付鹏30分钟长视频，深度解析比特币与AI资产、美债利率的联动逻辑【付鹏说4】</a> [9] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31557636" target="_blank" class="news-link">曾被质疑也有焦虑，这位上海援青校长为高原孩子点亮AI火种</a> [15] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7547330342706921518" target="_blank" class="news-link">前端开发 AI Agent 智能体，需要掌握哪些知识？</a> [18] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1947957353740764595" target="_blank" class="news-link">如何看待 TI14 中国队 XG 和 Tidebound 双双晋级 8 强，中国队今年能走到哪一步？</a> [6] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2229349" target="_blank" class="news-link">博主带孟加拉朋友回中国游玩</a> [8] <font color='grey'>- 11时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%B8%BB%E5%8A%A8%E6%92%9E%E5%87%BB%E5%B0%8F%E8%A1%8C%E6%98%9F%E6%9C%89%E4%BB%80%E4%B9%88%E4%BB%B7%E5%80%BC" target="_blank" class="news-link">中国主动撞击小行星有什么价值</a> [28] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">宇树 王兴兴</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2137699" target="_blank" class="news-link">宇树IPO在即，谁将最先兑现人形机器人资本热？</a> [12] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2138007" target="_blank" class="news-link">聚焦AI产品！特斯拉TeslaAI官微开通，展示人形机器人外观</a> [10] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157685" target="_blank" class="news-link">最近 gemini cli 总是报错： API Error: Premature close</a> [7] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7546272985385975842" target="_blank" class="news-link">Anthropic 停止 Claude 提供给多数股权由中国资本持有的集团或其子公司使用，会给国内的AI生态带来什么影响？</a> [24] <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2228793" target="_blank" class="news-link">iPhone 17系列国行预估价</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
