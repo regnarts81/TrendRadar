@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2025-09-08 12:19:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">5.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546827844945723446/" target="_blank" class="news-link">中方对日本参议员石平采取反制措施</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%9F%A9%E5%9B%BD%E5%B0%86%E5%AE%9E%E8%A1%8C%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%AE%B6%E9%95%BF10%E7%82%B9%E4%B8%8A%E7%8F%AD%E5%88%B6%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26band_rank%3D6%26c_type%3D31%26realpos%3D6%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E9%259F%25A9%25E5%259B%25BD%25E5%25B0%2586%25E5%25AE%259E%25E8%25A1%258C%25E5%25B0%258F%25E5%25AD%25A6%25E7%2594%259F%25E5%25AE%25B6%25E9%2595%25BF10%25E7%2582%25B9%25E4%25B8%258A%25E7%258F%25AD%25E5%2588%25B6%2523%26pos%3D5%26dgr%3D0%26cate%3D5001%26flag%3D1%26display_time%3D1757304995%26pre_seqid%3D17573049954630194601668" target="_blank" class="news-link">韩国将实行小学生家长10点上班制</a> [6] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31568180" target="_blank" class="news-link">外交部：对日本参议员石平采取反制措施</a> [12] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7546765054991892530/" target="_blank" class="news-link">美高官：日本5500亿拱手给美太爽了</a> [26] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547532350989549607/" target="_blank" class="news-link">中国建设银行原副行长章更生被公诉</a> [18] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%95%86%E5%8A%A1%E9%83%A8%E9%95%BF%EF%BC%9A%E6%9C%89%E5%8A%9E%E6%B3%95%E4%B8%8D%E5%86%8D%E4%BE%9D%E8%B5%96%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">美商务部长：有办法不再依赖中国</a> [20] <font color='grey'>- 12时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%A1%B6%E6%B5%81%E5%A4%96%E5%AA%92%E7%9B%9B%E8%B5%9E%E4%B8%AD%E5%9B%BD%E7%94%B5%E6%B7%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26band_rank%3D28%26c_type%3D31%26realpos%3D28%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E9%25A1%25B6%25E6%25B5%2581%25E5%25A4%2596%25E5%25AA%2592%25E7%259B%259B%25E8%25B5%259E%25E4%25B8%25AD%25E5%259B%25BD%25E7%2594%25B5%25E6%25B7%25B7%2523%26pos%3D28%26dgr%3D0%26cate%3D5001%26flag%3D1%26display_time%3D1757304995%26pre_seqid%3D17573049954630194601668" target="_blank" class="news-link">顶流外媒盛赞中国电混</a> [28] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2138040" target="_blank" class="news-link">特斯拉开通“Tesla AI”官方微博 首帖秀新版Optimus机器人</a> [12] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7546431177903620105" target="_blank" class="news-link">被网友逼着改名的谷歌Nano Banana，正在抢99%时尚博主的饭碗</a> [30] <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1157751" target="_blank" class="news-link">trae 后面还能用 Claude 模型吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547527510334980137/" target="_blank" class="news-link">人形机器人智博会上受热捧</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
