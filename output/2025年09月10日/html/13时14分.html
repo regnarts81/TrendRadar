@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 41</p><p>生成时间: 2025-09-10 13:14:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">4</td>
+                <td class="percentage">9.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1158249" target="_blank" class="news-link">我想吐槽下 iOS 26，把好多 1 click 的事情改成了 2-3click</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1158242" target="_blank" class="news-link">macless-haystack 报错 503？好像阿里云服务器的 ip 被苹果屏蔽了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone16%E9%9C%80%E6%B1%82%E4%B8%8D%E9%99%8D%E5%8F%8D%E5%8D%87%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26pos%3D10%26q%3D%2523iPhone16%25E9%259C%2580%25E6%25B1%2582%25E4%25B8%258D%25E9%2599%258D%25E5%258F%258D%25E5%258D%2587%2523%26cate%3D5001%26flag%3D1%26stream_entry_id%3D31%26lcate%3D5001%26c_type%3D31%26realpos%3D10%26filter_type%3Drealtimehot%26band_rank%3D10%26display_time%3D1757481143%26pre_seqid%3D1757481143231010495966" target="_blank" class="news-link">iPhone16需求不降反升</a> [10] <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E9%A2%84%E8%A8%80iPhone17%E5%8D%87%E7%BA%A7%E7%82%B9" target="_blank" class="news-link">UP预言iPhone17升级点</a> [29] <font color='grey'>- 13时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">9.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%8A%B1%E4%B8%AD%E5%9B%BD%E7%9A%84%E9%92%B1%E6%8F%92%E5%88%80%E4%B8%AD%E5%9B%BD%E7%BB%9D%E4%B8%8D%E5%AE%B9%E5%BF%8D%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26pos%3D9%26q%3D%2523%25E8%258A%25B1%25E4%25B8%25AD%25E5%259B%25BD%25E7%259A%2584%25E9%2592%25B1%25E6%258F%2592%25E5%2588%2580%25E4%25B8%25AD%25E5%259B%25BD%25E7%25BB%259D%25E4%25B8%258D%25E5%25AE%25B9%25E5%25BF%258D%2523%26cate%3D5001%26flag%3D1%26stream_entry_id%3D31%26lcate%3D5001%26c_type%3D31%26realpos%3D9%26filter_type%3Drealtimehot%26band_rank%3D9%26display_time%3D1757481143%26pre_seqid%3D1757481143231010495966" target="_blank" class="news-link">花中国的钱插刀中国绝不容忍</a> [9] <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755291" target="_blank" class="news-link">中国8月CPI同比转降0.4%、核心CPI回升至0.9%，PPI同比降幅收窄至2.9%</a> [10] <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548271892465978899/" target="_blank" class="news-link">美智库盯上中国阅兵目的何在</a> [25] <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8D%A1%E5%A1%94%E5%B0%94%E5%BD%93%E5%9C%B0%E4%B8%AD%E5%9B%BD%E4%BA%BA%E7%A7%B0%E6%B2%A1%E6%94%B6%E5%88%B0%E8%A2%AD%E5%87%BB%E9%A2%84%E8%AD%A6" target="_blank" class="news-link">卡塔尔当地中国人称没收到袭击预警</a> [27] <font color='grey'>- 13时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E5%96%8A%E8%AF%9D%E7%9F%B3%E5%B9%B3%E6%BB%9A%E5%87%BA%E6%97%A5%E6%9C%AC%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26dgr%3D0%26pos%3D3%26q%3D%2523%25E6%2597%25A5%25E6%259C%25AC%25E6%25B0%2591%25E4%25BC%2597%25E5%2596%258A%25E8%25AF%259D%25E7%259F%25B3%25E5%25B9%25B3%25E6%25BB%259A%25E5%2587%25BA%25E6%2597%25A5%25E6%259C%25AC%2523%26cate%3D5001%26flag%3D1%26stream_entry_id%3D31%26lcate%3D5001%26c_type%3D31%26realpos%3D4%26filter_type%3Drealtimehot%26band_rank%3D4%26display_time%3D1757481143%26pre_seqid%3D1757481143231010495966" target="_blank" class="news-link">日本民众喊话石平滚出日本</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时14分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548243840722386990/" target="_blank" class="news-link">卡塔尔遭袭的“最大输家”是美国吗</a> [26] <font color='grey'>- 13时14分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1158250" target="_blank" class="news-link">原来所谓的 AI 代码生成就是这么个玩意?</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
