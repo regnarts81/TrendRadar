@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2025-09-11 19:12:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B0%8F%E9%B9%BF%E6%8E%A2%E7%B4%A2%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%8E%9F%E5%A7%8B%E7%9A%84%E5%9C%9F%E5%9C%B0" target="_blank" class="news-link">小鹿探索中国最原始的土地</a> [9] <font color='grey'>- 19时12分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31594558" target="_blank" class="news-link">外交部：黄岩岛是中国固有领土，中方不接受菲律宾所谓的“抗议”</a> [14] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mZ8gAGsmv3" target="_blank" class="news-link">被美国背叛了吗？卡塔尔首相：我不能直言</a> [11] <font color='grey'>- 19时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E7%94%B7%E4%B9%92%E6%BE%B3%E9%97%A8%E8%B5%9B%E9%A6%96%E8%BD%AE%E5%85%A8%E9%83%A8%E5%87%BA%E5%B1%80" target="_blank" class="news-link">日本男乒澳门赛首轮全部出局</a> [18] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">胖东来 于东来</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1949113994628522145" target="_blank" class="news-link">网红「柴怼怼」等人涉嫌生产销售伪劣产品被立案调查，曾抹黑胖东来，其将承担哪些法律责任？</a> [13] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙 HarmonyOS 任正非</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1948349475597836917" target="_blank" class="news-link">如何评价《原神》从「月之一」版本开始上架鸿蒙应用市场，鸿蒙用户的使用体验如何？</a> [10] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">宇树 王兴兴</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2142476" target="_blank" class="news-link">持仓宇树科技0.51%股权的这家房企 连收6个涨停板</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">特斯拉 马斯克</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89HW3%E7%A1%AC%E4%BB%B6FSD%E5%9B%BD%E5%86%85%E9%A6%96%E8%AF%95" target="_blank" class="news-link">特斯拉HW3硬件FSD国内首试</a> [20] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.54%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone18%E7%A6%BB%E6%88%91%E4%BB%AC%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%91%E4%BA%86&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26q%3DiPhone18%25E7%25A6%25BB%25E6%2588%2591%25E4%25BB%25AC%25E8%25B6%258A%25E6%259D%25A5%25E8%25B6%258A%25E8%25BF%2591%25E4%25BA%2586%26dgr%3D2%26band_rank%3D6%26filter_type%3Drealtimehot%26realpos%3D6%26c_type%3D31%26pos%3D5%26flag%3D1%26cate%3D5001%26lcate%3D5001%26display_time%3D1757588744%26pre_seqid%3D17575887440570053356" target="_blank" class="news-link">iPhone18离我们越来越近了</a> [6] <font color='grey'>- 19时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
