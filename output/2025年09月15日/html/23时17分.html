@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 43</p><p>生成时间: 2025-09-15 23:17:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">4.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755618" target="_blank" class="news-link">苹果新机预售跟踪：iPhone 17 Pro Max最抢手，Air最差，中国市场需求强劲</a> [10] <font color='grey'>- 23时17分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7549794632518320138" target="_blank" class="news-link">iOS 26 仅需几行代码让 SwiftUI 7 液态玻璃界面焕发新春</a> [30] <font color='grey'>- 23时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">4.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B9%E6%9E%9C%E6%96%B0%E6%AC%BEAirPods%E9%A6%96%E5%8F%91%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">苹果新款AirPods首发上手体验</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时17分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AirPods%20Pro%203%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E4%B9%B0" target="_blank" class="news-link">AirPods Pro 3值不值得买</a> [17] <font color='grey'>- 23时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.65%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%99%E4%B8%AA%E2%80%9C%E4%B8%AD%E5%9B%BD%E9%97%B4%E8%B0%8D%E2%80%9D%E9%97%B9%E5%89%A7%E7%BB%88%E4%BA%8E%E7%BB%93%E6%9D%9F%E4%BA%86" target="_blank" class="news-link">这个“中国间谍”闹剧终于结束了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550257895095713834/" target="_blank" class="news-link">150秒速览中国蓝盔35年</a> [17] <font color='grey'>- 23时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%A2%A6%E6%83%B3%E9%80%A0%E9%AB%98%E8%BE%BE%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E5%AE%B6" target="_blank" class="news-link">梦想造高达的机器人专家</a> [7] <font color='grey'>- 23时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mg35DHQLIE" target="_blank" class="news-link">胡锡进：日本、菲律宾等不要蹚中美博弈的浑水，当心被一勺烩了</a> [9] <font color='grey'>- 23时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
