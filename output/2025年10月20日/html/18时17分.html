@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 54</p><p>生成时间: 2025-10-20 18:17:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nbhhn7EKrh" target="_blank" class="news-link">7年来首次，9月归零！中国还是没买美国大豆</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nbm4jutZ6i" target="_blank" class="news-link">澳军机非法侵入中国西沙领空，南部战区回应</a> [10] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562160482208170025/" target="_blank" class="news-link">中国9月未从美国进口大豆</a> [13] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562204222754963482/" target="_blank" class="news-link">中方回应美国将提出的三大议题</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2174360" target="_blank" class="news-link">上下班都在玩股票！“12小时交易”上线逾半年 韩国股民彻底上瘾了</a> [9] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563212989176761897/" target="_blank" class="news-link">青蛙服为何成美国抗议顶流</a> [19] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">2</td>
+                <td class="percentage">3.7%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1962512846630941008" target="_blank" class="news-link">如何看 Anthropic 最新发布的 Claude Skills？会替代 MCP 吗？</a> [17] <font color='grey'>- 18时17分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7562129514665000995" target="_blank" class="news-link">有了 MCP，为什么Claude 还要推出 Skills？</a> [29] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1167083" target="_blank" class="news-link">deepseek 视觉识别模型出世，专注于文本识别、画框标注，线条画的解析与建模，而且按照论文说会比通用视觉模型更有性价比</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1167093" target="_blank" class="news-link">[原型求拍砖] AttentionOS：并行用 ChatGPT/Claude/SD ai 工具的“注意力调度”（仅演示）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345970&amp;amp;topic_name=Blg%E5%A4%A7%E5%8F%98%E5%A4%A9%2C%E5%8A%9F%E5%8B%8B%E6%95%99%E7%BB%83Bail%E5%8D%B8%E4%BB%BB%E7%A6%BB%E9%98%9F" target="_blank" class="news-link">Blg大变天,功勋教练Bail卸任离队</a> [8] <font color='grey'>- 18时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
