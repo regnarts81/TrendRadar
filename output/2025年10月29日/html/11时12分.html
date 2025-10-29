@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 89</p><p>生成时间: 2025-10-29 11:12:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">3.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1169083" target="_blank" class="news-link">AI 眼镜需求</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时12分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1169077" target="_blank" class="news-link">现在有 AI 工具能帮我检索我的浏览器收藏夹吗? 因为很多历史的收藏内容只能记个大概, 只是知道我收藏了这么一块内容, 但是找起来非常费事, 如果能告诉 ai 帮我找一下, 应该会方便很多.</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184173" target="_blank" class="news-link">人形机器人概念持续火热！“木头姐”力挺：AI领域最大机遇之一</a> [12] <font color='grey'>- 11时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.37%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%9F%A9%E5%9B%BD%E5%8F%88%E4%B8%80%E6%80%A7%E7%8A%AF%E7%BD%AA%E7%BD%91%E7%AB%99%E6%9B%9D%E5%85%89%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26q%3D%2523%25E9%259F%25A9%25E5%259B%25BD%25E5%258F%2588%25E4%25B8%2580%25E6%2580%25A7%25E7%258A%25AF%25E7%25BD%25AA%25E7%25BD%2591%25E7%25AB%2599%25E6%259B%259D%25E5%2585%2589%2523%26dgr%3D0%26flag%3D1%26stream_entry_id%3D31%26realpos%3D2%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D1%26band_rank%3D2%26display_time%3D1761706804%26pre_seqid%3D1761706804869010830587" target="_blank" class="news-link">韩国又一性犯罪网站曝光</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8F%88%E6%9C%89%E5%AE%9E%E9%AA%8C%E7%94%A8%E7%8C%B4%E8%B7%91%E4%BA%86" target="_blank" class="news-link">美国又有实验用猴跑了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758090" target="_blank" class="news-link">美日首脑会晤：为“美国核电超级大单”买单，高市成功取悦特朗普</a> [10] <font color='grey'>- 11时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">2</td>
+                <td class="percentage">2.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184178" target="_blank" class="news-link">黄仁勋坚称AI热潮并未泡沫，携全新合作伙伴进军各大前沿领域！</a> [9] <font color='grey'>- 11时12分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE10%E4%BA%BF%E7%BE%8E%E5%85%83%E5%85%A5%E8%82%A1%E8%AF%BA%E5%9F%BA%E4%BA%9A" target="_blank" class="news-link">英伟达10亿美元入股诺基亚</a> [16] <font color='grey'>- 11时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%BA%AC%E4%B8%9C%E7%9C%9F%E5%8F%91%E9%92%B1%E6%AF%8F%E4%BA%BA1%E4%B8%87%E5%85%A8%E7%BD%91%E6%AF%94%E4%BB%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26cate%3D5001%26q%3D%2523%25E4%25BA%25AC%25E4%25B8%259C%25E7%259C%259F%25E5%258F%2591%25E9%2592%25B1%25E6%25AF%258F%25E4%25BA%25BA1%25E4%25B8%2587%25E5%2585%25A8%25E7%25BD%2591%25E6%25AF%2594%25E4%25BB%25B7%2523%26dgr%3D0%26flag%3D1%26stream_entry_id%3D31%26realpos%3D20%26filter_type%3Drealtimehot%26lcate%3D5001%26c_type%3D31%26pos%3D21%26band_rank%3D20%26display_time%3D1761706804%26pre_seqid%3D1761706804869010830587" target="_blank" class="news-link">京东真发钱每人1万全网比价</a> [20] <font color='grey'>- 11时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758104" target="_blank" class="news-link">OpenAI达成重磅协议向营利组织转型，微软持股27%，AI模型授权延至2032年，Azure获2500亿订单</a> [9] <font color='grey'>- 11时12分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184158" target="_blank" class="news-link">10月29日投资避雷针：四连板人气股公告暂无量子科技业务 前三季度净亏损1.03亿元</a> [10] <font color='grey'>- 11时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
