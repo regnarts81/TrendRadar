@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2025-11-19 14:24:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">11.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E5%AA%92%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%B7%B2%E6%9A%82%E5%81%9C%E8%BF%9B%E5%8F%A3%E6%97%A5%E6%9C%AC%E6%B0%B4%E4%BA%A7%E5%93%81" target="_blank" class="news-link">日媒：中国已暂停进口日本水产品</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oPIJDvQJcF" target="_blank" class="news-link">日媒：中国已向日本通报暂停进口日本水产品</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7573254780828057619/" target="_blank" class="news-link">中国军网在海外发布备战视频</a> [7] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%87%8F%E5%A4%A7%E7%AE%A1%E9%A5%B1%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%86%9B%E7%BD%91%E5%8F%91%E5%B8%83%E8%AE%AD%E7%BB%83%E5%A4%87%E6%88%98%E7%9F%AD%E7%89%87" target="_blank" class="news-link">量大管饱！中国军网发布训练备战短片</a> [29] <font color='grey'>- 14时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">4</td>
+                <td class="percentage">11.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7573610499775430675/" target="_blank" class="news-link">日媒：中方暂停进口日本水产品</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2311223" target="_blank" class="news-link">日媒：中方暂停进口日本水产品</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%9D%E9%B2%9C%E4%BB%A3%E8%A1%A8%E8%81%94%E5%A4%A7%E2%80%9C%E7%82%AE%E8%BD%B0%E2%80%9D%E6%97%A5%E6%9C%AC" target="_blank" class="news-link">朝鲜代表联大“炮轰”日本</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7574214126352760873/" target="_blank" class="news-link">韩国超大物流中心大火烧了60小时</a> [21] <font color='grey'>- 14时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1920764981328221242" target="_blank" class="news-link">如果 AI 能完美模拟已故亲友的思维和记忆，你会选择「复活」他们吗？</a> [18] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/582917350" target="_blank" class="news-link">AI 为什么会先淘汰写字楼里的人？</a> [20] <font color='grey'>- 14时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 鸿蒙 HarmonyOS 任正非</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7573682559507529791/" target="_blank" class="news-link">鸿蒙HarmonyOS 6最新适配机型公布</a> [27] <font color='grey'>- 14时24分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1173734" target="_blank" class="news-link">google 账号地区切换的问题看这里</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
