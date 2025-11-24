@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-11-24 15:17:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759964" target="_blank" class="news-link">大摩：2026年的主要风险是“AI资本狂潮未能提升生产力”</a> [9] <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [稀土掘金] <a href="https://juejin.cn/post/7574916588719538218" target="_blank" class="news-link">Next.js第九章(AI)</a> [29] <font color='grey'>- 15时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2208785" target="_blank" class="news-link">距离中国台湾仅110公里 日本宣布在敏感区域部署导弹</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576151255974678066/" target="_blank" class="news-link">中国民间的“手搓飞行梦”有多狂野</a> [24] <font color='grey'>- 15时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8F%B0%E8%AF%84%E8%AE%BA%E5%91%98%E7%A7%B0%E7%90%89%E7%90%83%E8%B7%9F%E6%97%A5%E6%9C%AC%E6%B2%A1%E5%8D%8A%E6%AF%9B%E9%92%B1%E5%85%B3%E7%B3%BB%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">台评论员称琉球跟日本没半毛钱关系</a> [22] <font color='grey'>- 15时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%AC%A0%E5%8F%B0%E6%B9%BE%E7%9A%84%E8%A1%80%E5%80%BA%E8%AF%A5%E8%BF%98%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">日本欠台湾的血债该还了</a> [27] <font color='grey'>- 15时17分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174682" target="_blank" class="news-link">macOS 下有类似 proxifier 的软件吗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
