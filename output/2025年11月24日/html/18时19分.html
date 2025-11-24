@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-11-24 18:19:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174731" target="_blank" class="news-link">使用 反重力 构建了一个 中国象棋，欢迎找错。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174736" target="_blank" class="news-link">分享一个免费的国产内网穿透工具！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B0%86%E5%AF%BB%E6%89%BE%E7%AC%AC%E4%BA%8C%E9%A2%97%E5%9C%B0%E7%90%83" target="_blank" class="news-link">中国将寻找第二颗地球</a> [8] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oXn6zcg4Hk" target="_blank" class="news-link">担忧受高市谬论影响，日本游客排长队参观大熊猫</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oXsL61mzbX" target="_blank" class="news-link">毛宁用日文转发王毅表态：有权利对日本的历史罪行进行再清算</a> [6] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575370668758515753/" target="_blank" class="news-link">台退将谈解放军警告日本</a> [19] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">3</td>
+                <td class="percentage">5.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2209009" target="_blank" class="news-link">我国将开展太空探源科学卫星计划 探寻宇宙生命起源</a> [11] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2316616" target="_blank" class="news-link">神二十二飞船计划11月25日发射</a> [22] <font color='grey'>- 18时19分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%A5%9E%E4%BA%8C%E5%8D%81%E4%BA%8C%E9%A3%9E%E8%88%B9%E8%AE%A1%E5%88%9225%E6%97%A5%E5%8F%91%E5%B0%84" target="_blank" class="news-link">神二十二飞船计划25日发射</a> [25] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">宇树 王兴兴</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2208716" target="_blank" class="news-link">工信部人形机器人标准化技术委员会委员名单公示：王兴兴、彭志辉等为副主任委员</a> [12] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174733" target="_blank" class="news-link">初次尝试 chrome 商店，上架了个丝滑调节 b 站视频倍速的插件，用 Gemini 3 一键直出引导动画的设计让我挺惊讶</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174741" target="_blank" class="news-link">有多少人用 cursor vscode 等 ide 配合 claude 写代码的？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2209008" target="_blank" class="news-link">【每日收评】三大指数缩量震荡小幅上涨，全市场逾百股涨超9%，AI应用、军工方向领涨</a> [13] <font color='grey'>- 18时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
