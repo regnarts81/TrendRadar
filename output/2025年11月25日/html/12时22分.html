@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2025-11-25 12:22:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">6</td>
+                <td class="percentage">8.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575651677886251071/" target="_blank" class="news-link">陈百祥：中国一讲琉球独立日本就脚软</a> [8] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E4%BC%9A%E4%B8%8D%E4%BC%9A%E5%81%B7%E8%A2%AD%E4%B8%AD%E5%9B%BD%23&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">日本会不会偷袭中国</a> [11] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1976346073934079632" target="_blank" class="news-link">中国官宣「十五五」期间发射四颗卫星，其中一颗将寻找第二颗地球，对于太空探索领域意味着什么？有哪些难点？</a> [13] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32031997" target="_blank" class="news-link">锐评｜距中国台湾110公里处部署导弹，日本突破“专守防卫”界限</a> [18] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E7%B1%B3%E5%87%BA%E7%8E%B0%E5%9C%A8%E6%97%A5%E6%9C%AC%E5%95%86%E5%BA%97%E6%98%BE%E8%91%97%E4%BD%8D%E7%BD%AE" target="_blank" class="news-link">中国大米出现在日本商店显著位置</a> [26] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576447875526168127/" target="_blank" class="news-link">中国稀土对西方到底有多重要</a> [28] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">3</td>
+                <td class="percentage">4.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%9B%B4%E5%87%BB%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%8F%B7%E9%A3%9E%E8%88%B9%E5%8F%91%E5%B0%84" target="_blank" class="news-link">直击神舟二十二号飞船发射</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575703476618018867/" target="_blank" class="news-link">神舟二十二号飞船今日发射</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%8F%B7%E9%A3%9E%E8%88%B9%E5%8F%91%E5%B0%84" target="_blank" class="news-link">神舟二十二号飞船发射</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">2</td>
+                <td class="percentage">2.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%AD%A6%E6%83%95%EF%BC%81%E6%97%A5%E6%9C%AC%E6%88%96%E6%88%90%E4%B8%BA%E4%BA%9A%E6%B4%B2%E6%9C%80%E5%8D%B1%E9%99%A9%E7%9A%84%E5%9B%BD%E5%AE%B6" target="_blank" class="news-link">警惕！日本或成为亚洲最危险的国家</a> [14] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E6%95%99%E7%BB%83%E4%B8%BA%E5%A5%B3%E9%80%89%E6%89%8B%E8%A3%B9%E6%AF%9B%E6%AF%AF%E5%BC%95%E4%BA%89%E8%AE%AE" target="_blank" class="news-link">韩国教练为女选手裹毛毯引争议</a> [23] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760049" target="_blank" class="news-link">准时上演！“大空头”大战英伟达，“AI泡沫”论战开启</a> [10] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">1.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1174872" target="_blank" class="news-link">Claude Code 实现完全揭秘 - 抓包与逆向</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
