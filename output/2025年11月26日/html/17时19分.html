@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2025-11-26 17:19:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">8.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1975914599938294399" target="_blank" class="news-link">如何评价俄罗斯火箭年输送能力已经不足中国的 19%?</a> [7] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32045814" target="_blank" class="news-link">《赛德克·巴莱》上下部官宣中国大陆上映，定档12月12、13日</a> [19] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32046965" target="_blank" class="news-link">外交部：敦促日方采取切实行动保障在日中国公民和机构的安全</a> [20] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576471414815981611/" target="_blank" class="news-link">英国政客：中国永远不会原谅日本</a> [30] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%9A%E8%89%98%E4%B8%AD%E5%9B%BD%E9%82%AE%E8%BD%AE%E5%8F%98%E6%9B%B4%E5%89%8D%E5%BE%80%E6%97%A5%E6%9C%AC%E8%88%AA%E7%BA%BF" target="_blank" class="news-link">多艘中国邮轮变更前往日本航线</a> [30] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">8.93%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760110" target="_blank" class="news-link">美国9月PPI环比上涨0.3%，能源成本上升推动通胀抬头</a> [9] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576893008382345235/" target="_blank" class="news-link">专家：日本的“战争准备”正全面铺开</a> [14] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576900441439473179/" target="_blank" class="news-link">日本熊灾今年动静怎么闹得这么大</a> [22] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576925712943173174/" target="_blank" class="news-link">学者：高市言论不代表日本主流意志</a> [23] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2318076" target="_blank" class="news-link">郑伊健日本演唱会取消</a> [30] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">哪吒 饺子 杨宇</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E3%80%8A%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2%E3%80%8B%E9%A2%84%E5%94%AE%E7%A5%A8%E6%88%BF%E8%B6%85%E3%80%8A%E5%93%AA%E5%90%922%E3%80%8B" target="_blank" class="news-link">《疯狂动物城2》预售票房超《哪吒2》</a> [19] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760114" target="_blank" class="news-link">一则消息引爆市场，AI竞争格局生变！英伟达盘中重挫7%，谷歌再创新高</a> [10] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1175227" target="_blank" class="news-link">用 gemini3 和 trae 糊了一个给照片加边框的应用</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E8%B6%85%E6%B2%BB%E6%84%88%E6%BC%94%E5%94%B1AI%E9%9F%B3%E4%B9%90%E6%97%A0%E5%B2%B8" target="_blank" class="news-link">UP超治愈演唱AI音乐无岸</a> [29] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">月球 登月 火星 宇宙 飞船 航空</td>
+                <td class="count">1</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A5%9E%E4%BA%8C%E5%8D%81%E9%A3%9E%E8%88%B9%E8%88%B7%E7%AA%97%E8%A3%82%E7%BA%B9%E5%A6%82%E4%BD%95%E8%A2%AB%E5%8F%91%E7%8E%B0" target="_blank" class="news-link">神二十飞船舷窗裂纹如何被发现</a> [16] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
